@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="47048" started-at="2021-11-11T12:55:42 IST" finished-at="2021-11-11T12:56:29 IST">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="35998" started-at="2021-11-11T12:55:42 IST" finished-at="2021-11-11T12:56:18 IST">
+      <class name="pack1.CrossBrowser">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:pack1.CrossBrowser@5c18298f]" name="setup" is-config="true" duration-ms="4625" started-at="2021-11-11T12:55:42 IST" finished-at="2021-11-11T12:55:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="demo()[pri:0, instance:pack1.CrossBrowser@5c18298f]" name="demo" duration-ms="31332" started-at="2021-11-11T12:55:46 IST" finished-at="2021-11-11T12:56:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+      </class> <!-- pack1.CrossBrowser -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="47048" started-at="2021-11-11T12:55:42 IST" finished-at="2021-11-11T12:56:29 IST">
+      <class name="pack1.CrossBrowser">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:pack1.CrossBrowser@78ac1102]" name="setup" is-config="true" duration-ms="21108" started-at="2021-11-11T12:55:42 IST" finished-at="2021-11-11T12:56:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="demo()[pri:0, instance:pack1.CrossBrowser@78ac1102]" name="demo" duration-ms="25934" started-at="2021-11-11T12:56:03 IST" finished-at="2021-11-11T12:56:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+      </class> <!-- pack1.CrossBrowser -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite1 -->
+</testng-results>
